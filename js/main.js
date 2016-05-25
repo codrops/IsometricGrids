@@ -190,7 +190,6 @@
 		var scrollHandler = function() {
 				requestAnimationFrame(function() {
 					if (!self.didscroll) {
-						console.log('ds')
 						self.didscroll = true;
 						self._scrollPage();
 					}
@@ -250,7 +249,7 @@
 	};
 
 	IsoGrid.prototype._scrollPage = function() {
-		this.gridEl.style.transform = 'translate3d(0,-' + scrollY() + 'px,0)';
+		this.gridEl.style.WebkitTransform = this.gridEl.style.transform = 'translate3d(0,-' + scrollY() + 'px,0)';
 		this.didscroll = false;
 	};
 
