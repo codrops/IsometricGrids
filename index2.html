@@ -592,9 +592,10 @@
 					}
 				}
 			});
-			
+
 			new IsoGrid(document.querySelector('.isolayer--deco2'), {
 				perspective: 3000,
+				preserve3d: false,
 				transform : 'translateY(-150px) rotateX(55deg) rotateZ(-45deg)',
 				stackItemsAnimation : {
 					properties : function(pos) {
@@ -614,7 +615,7 @@
 					}
 				}
 			});
-			
+
 			new IsoGrid(document.querySelector('.isolayer--deco3'), {
 				transform : 'translateX(40vw) translateY(100px) rotateX(15deg) rotateY(0) rotateZ(40deg)',
 				stackItemsAnimation : {
@@ -633,7 +634,7 @@
 					}
 				}
 			});
-			
+
 			new IsoGrid(document.querySelector('.isolayer--deco4'), {
 				perspective: 3000,
 				transform : 'translate3d(-200px,-200px,0) scale3d(0.8,0.8,1) rotateY(45deg) rotateZ(-10deg)',
