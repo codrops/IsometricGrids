@@ -2,6 +2,8 @@
 
 Some experimental decorative and interactive isometric and 3D grids.
 
+![IsometricGrids](http://tympanus.net/codrops/wp-content/uploads/2016/05/IsometricGrids_800x600.jpg)
+
 [Article on Codrops](http://tympanus.net/codrops/?p=27094)
 
 [Demo](http://tympanus.net/Development/IsometricGrids/)
